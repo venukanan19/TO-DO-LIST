@@ -1,6 +1,6 @@
 // Load tasks from localStorage or start with empty array
 let tasks = JSON.parse(localStorage.getItem("tasks")) || [];
-let filter = "all"; 
+let filter = "pending"; 
 
 // Grab DOM elements takeing user input and conect html
 const taskinput = document.getElementById("taskinput");
